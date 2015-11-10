@@ -1,0 +1,24 @@
+<template name="Header">
+    <div class="header-image"></div>
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <!--  Display three horizontal lines when navbar collapsed. -->
+                    <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{pathFor 'Home'}}">Textbook Mania</a></li>
+                    <li><a href="{{pathFor 'Students'}}">Students</a></li>
+                    <li><a href="{{pathFor 'Textbooks'}}">Textbooks</a></li>
+                    <li><a href="{{pathFor 'BuyOrders'}}">Buy Orders</a></li>
+                    <li><a href="{{pathFor 'SellOrders'}}">Sell Orders</a></li>
+                    <li><a href="{{pathFor 'Matches'}}">Matches</a></li>
+                    <li><a href="{{pathFor 'Help'}}">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>

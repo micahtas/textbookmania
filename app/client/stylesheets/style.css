@@ -1,0 +1,11 @@
+.header-image
+{
+  background-image: url('/images/Programming_language_textbooks.jpg');
+  background-size: cover;
+  height: 180px;
+}
+
+.navbar
+{
+  border-radius: 0px;
+}
